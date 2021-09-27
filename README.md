@@ -1,0 +1,11 @@
+# AFP_2021_CS1340_ShelbyCompanyLtd
+# Shelby Company Limited
+
+Ez a repository az Eszterházy Károly Katolikus Egyetem 2021. 1. félévi alkalmazások fejlesztése projekt labor gyakorlatához tartozik.
+
+## Csapattagok
+
+- [Banyik Nándor](https://github.com/Banyik)
+- [Kecse Károly](https://github.com/KecseKaroly/)
+- [Nagy Péter Axel](https://github.com/Axel0103/)
+- [Sárosi Gábor](https://github.com/FeNToNelele/)
