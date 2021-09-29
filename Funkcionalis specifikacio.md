@@ -27,6 +27,6 @@ Az alapértelmezett oldal a bejelentkezési lap lesz, ami után megjelennek a pr
 
 ## 10. Fogalomszótár
 
-Reszponzív: Az eszköz nagyságától függően igazodik a weboldal megjelenésének méretezése. (2. pont)
-Privilégiumok: Felhasználók jogosultsági köre. (7. pont)
-Kliens: vásárlók (5. pont)
+- Reszponzív: Az eszköz nagyságától függően igazodik a weboldal megjelenésének méretezése. (2. pont)
+- Privilégiumok: Felhasználók jogosultsági köre. (7. pont)
+- Kliens: vásárlók (5. pont)
