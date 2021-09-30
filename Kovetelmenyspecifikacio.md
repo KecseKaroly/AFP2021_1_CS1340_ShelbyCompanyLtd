@@ -12,6 +12,16 @@ A dolgozók ennek segítségével visszajelezhetnek az egyes csomagok állapotá
 A weboldalon lehessen csoportokat létrehozni, így részlegenként nyomon követhetők a tételek.
 
 
+## 5. A rendszerre vonatkozó szabályok
+- A web felület szabványos eszközökkel készüljön, html/php/css
+- A felület a lehető legkevesebb oldalból álljon
+- Egy oldalon történjen a listázás
+- Jogosultságtól függően módosítást végző nyomógombok
+- A rendszer legyen intuitív, betanítást ne igényeljen
+- A rendszerhez való hozzáférés mindenképpen fiókhoz kötött, melyet előzetesen az admin hoz létre
+- A felhasználókat azonosító weboldalak esetében szükséges GDPR jogszabályokat be kell tartani
+
+
 ## 7. Fogalomtár
 
 - Depó: más szóval lerakat, raktár
