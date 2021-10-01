@@ -41,7 +41,15 @@ A weboldalon lehessen csoportokat létrehozni, így részlegenként nyomon köve
 - 4.3 - A kiszállított termékeket ne listázza ki a dolgozóknak
     - 4.3.1 - A kész csomagokat  csak az admin illetve a jegyző láthassa
     - `Biztonsági okokból nem törlődhetnek az adatbázisból`
-        
+       
+## 5. A rendszerre vonatkozó szabályok
+- A web felület szabványos eszközökkel készüljön, html/php/css
+- A felület a lehető legkevesebb oldalból álljon
+- Egy oldalon történjen a listázás
+- Jogosultságtól függően módosítást végző nyomógombok
+- A rendszer legyen intuitív, betanítást ne igényeljen
+- A rendszerhez való hozzáférés mindenképpen fiókhoz kötött, melyet előzetesen az admin hoz létre
+- A felhasználókat azonosító weboldalak esetében szükséges GDPR jogszabályokat be kell tartani
 
 ## 6. Követelménylista
 - K01 Könnyen átlátható felület
@@ -52,19 +60,6 @@ A weboldalon lehessen csoportokat létrehozni, így részlegenként nyomon köve
     -1. Jogosultságok kezelése, teljes hozzáférés
     -Megrendelés felvitele
     -Megrendelés állapotának módosítása
-
-
-
-
-## 5. A rendszerre vonatkozó szabályok
-- A web felület szabványos eszközökkel készüljön, html/php/css
-- A felület a lehető legkevesebb oldalból álljon
-- Egy oldalon történjen a listázás
-- Jogosultságtól függően módosítást végző nyomógombok
-- A rendszer legyen intuitív, betanítást ne igényeljen
-- A rendszerhez való hozzáférés mindenképpen fiókhoz kötött, melyet előzetesen az admin hoz létre
-- A felhasználókat azonosító weboldalak esetében szükséges GDPR jogszabályokat be kell tartani
-
 
 ## 7. Fogalomtár
 
