@@ -17,8 +17,11 @@ A technológiailag lemaradt cégeknek egyéni szoftvert/alkalmazást hozunk lét
 
 ## 6. Használati esetek 
 -Admin: korlátlan hozzáférése van minden beosztott jogosultságához, megrendelések törlése, módosítása, felhasználó hozzáadása, szerepköreik kiosztása, jelszavak módosítása
+
 -Rendelésfelvevő:  lehetősége van adatokat felvinni a weboldal adatbázisába, kilistázhatja a kiszállított illetve kiszállításra váró megrendelések adatait, módosíthatja azok adatait/státuszát
+
 -Raktáros: módosíthatja a megrendelések státuszát, kilistázhatja a leadott, ki nem szállított rendeléseket
+
 -Futár: Az X-edik fázisban lévő csomagokat látja, ő tudja az utolsó fázisba léptetni a csomag állapotát
 
 
