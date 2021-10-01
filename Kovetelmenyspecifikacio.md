@@ -43,6 +43,16 @@ A weboldalon lehessen csoportokat létrehozni, így részlegenként nyomon köve
     - `Biztonsági okokból nem törlődhetnek az adatbázisból`
         
 
+## 6. Követelménylista
+- K01 Könnyen átlátható felület
+- K02 Eszközfüggetlen design
+- K03 Tételek csoportosíthatósága
+- K04 Csomagok kereshetősége
+- K05 Jogosultsági rendszer, 3 szint
+    -1. Jogosultságok kezelése, teljes hozzáférés
+    -Megrendelés felvitele
+    -Megrendelés állapotának módosítása
+
 
 
 
