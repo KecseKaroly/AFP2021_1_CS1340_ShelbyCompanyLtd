@@ -15,6 +15,12 @@ A felhasználó szeretné felváltani a füzetben vezetett csomagjairól szóló
 ## 5. Igényelt üzleti folyamatok modellje	
 A technológiailag lemaradt cégeknek egyéni szoftvert/alkalmazást hozunk létre, amellyel a nyilvántartást megkönnyíthetik. Rendelesés feljegyzése esetén nem kell majd füzetet/írógépet használni, illetve annak értesítéséhez nem kell telefonálni a raktárnak, hanem egyszerű értesítéssel lehet jelezni az ott dolgozóknak a legújabb rendelésről. Mind ezzel növelve a cég reakcióidejét, a gyorsabb kiszállítást, valamint további rendelések mielőbbi felvételét. Minden ilyen pozitív változás a cég érdekében növelheti a kliensek véleményét, s lojalitását.
 
+## 6. Használati esetek 
+Admin: korlátlan hozzáférése van minden beosztott jogosultságához, megrendelések törlése, módosítása, felhasználó hozzáadása, szerepköreik kiosztása, jelszavak módosítása
+Rendelésfelvevő:  lehetősége van adatokat felvinni a weboldal adatbázisába, kilistázhatja a kiszállított illetve kiszállításra váró megrendelések adatait, módosíthatja azok adatait/státuszát
+Raktáros: módosíthatja a megrendelések státuszát, kilistázhatja a leadott, ki nem szállított rendeléseket
+Futár: Az X-edik fázisban lévő csomagokat látja, ő tudja az utolsó fázisba léptetni a csomag állapotát
+
 
 ## 7. Megfeleltetés
 Kialakítjuk a 3 kért jogosultsági szintet a meghatározott funkciókkal:
