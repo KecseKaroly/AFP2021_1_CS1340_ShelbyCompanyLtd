@@ -1,0 +1,42 @@
+html {
+    background-color: #F7F9F9;
+}
+
+.content {
+    background-color: #F7F9F9;
+}
+
+.btn-login {
+    background-color: #6461A0;
+    color: #F7F9F9;
+}
+
+.col-menu {
+    background-color: #807ccc;
+    color: #ffffff;
+    border-color: #166088;
+    border: 1pt;
+}
+
+.new-order {
+    background: #807ccc;
+}
+
+
+#new-order:hover,
+#new-order:active,
+#new-order:focus,
+#new-order.active {
+    background: #98FB98;
+    color: #ffffff;
+    border-color: #003D4F;
+}
+
+.btn-login:hover,
+.btn-login:active,
+.btn-login:focus,
+.btn-login.active {
+  background: #807ccc;
+  color: #ffffff;
+  border-color: #003D4F;
+}
