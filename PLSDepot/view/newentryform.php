@@ -7,7 +7,7 @@
     $query="select jog from alkalmazott where felhasznalonev='".$_SESSION['user']."'";
     $res=mysqli_query($con,$query) or die ("Hiba: ".mysqli_error($con));
     list($aut)=mysqli_fetch_row($res);
-    if((empty($_SESSION['userLogin']) || $_SESSION['userLogin'] == '') || $aut!="Admin" && $aut!="Uploader"){
+    if((empty($_SESSION['userLogin']) || $_SESSION['userLogin'] == '') || $aut!="admin" && $aut!="futar"){
         echo '<meta http-equiv="refresh" content="0; URL=index.php">';
     }
 ?>
@@ -37,8 +37,6 @@
                     <input type="number" id="csomaginfo_ar" name="csomaginfo_ar" class="form-control" placeholder="Ft" min=0>
                     <label class="form-label" style="margin-top: 20px;">Címzett neve</label>
                     <input type="text" class="form-control" id="cimzett_nev" name="cimzett_nev" placeholder="Címzett neve">
-                    <label class="form-label" style="margin-top: 20px;">Irányítószám</label>
-                    <input type="number" class="form-control" id="cimzett_ir" name="cimzett_ir" placeholder="Irányítószám" min=1000 max=9985>
                     <label class="form-label" style="margin-top: 20px;">Lakcím</label>
                     <input type="text" class="form-control" id="cimzett_lakcim" name="cimzett_lakcim" placeholder="Lakcím">
                     <label class="form-label" style="margin-top: 20px;">Telefonszám</label>
