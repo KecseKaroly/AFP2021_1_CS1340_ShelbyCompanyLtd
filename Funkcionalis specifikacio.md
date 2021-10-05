@@ -45,6 +45,12 @@ Kialakítjuk a 3 kért jogosultsági szintet a meghatározott funkciókkal:
 Az alapértelmezett oldal a bejelentkezési lap lesz, ami után megjelennek a privilégiumoknak megfelelő menüpontok illetve nyomógombok:
 	‘Főoldal’, ‘Rendelések’, ‘Rendelésfelvétel’, ‘Hibabejelentés’, ‘Kijelentkezés’ gomb
 
+
+## 8. Képernyőtervek
+![Bejelentkezés](https://imgur.com/a/LjzW9aB)
+![Rendelésfelvétel](https://imgur.com/YsD1D9V)
+
+
 ## 9. Forgatókönyv
     Raktáros szemszögéből:
 Bejelentkezés után a ‘Listázás’ menüpontban láthatóvá válik az előkészítendő csomag és annak jelenlegi állapota. A raktáros elvégzi a megadott munkafolyamatot, majd lehetősége van a csomag állapotát a következőre átváltani. Ez a folyamat addig folytatódik, amíg a csomag a futárhoz nem kerül.
