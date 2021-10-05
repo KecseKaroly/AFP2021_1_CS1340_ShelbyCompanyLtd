@@ -47,8 +47,8 @@ Az alapértelmezett oldal a bejelentkezési lap lesz, ami után megjelennek a pr
 
 
 ## 8. Képernyőtervek
-![Bejelentkezés](https://imgur.com/a/LjzW9aB)
-![Rendelésfelvétel](https://imgur.com/YsD1D9V)
+![Bejelentkezés](https://i.imgur.com/nlTSODA.png)
+![Rendelésfelvétel](https://i.imgur.com/YsD1D9V.png)
 
 
 ## 9. Forgatókönyv
