@@ -7,6 +7,18 @@ Egy olyan rendszert fejlesztünk, ami segítségével egy szállítással foglal
 ## 2. Jelenlegi helyzet
 A felhasználó szeretné felváltani a füzetben vezetett csomagjairól szóló nyilvántartást egy digitális felületre, ahol könnyebben és kényelmesebben tudná regisztrálni a megrendeléseket, valamint figyelemmel követni a munkavégzés fázisait. Mivel fontosnak tartják a vevővel való kommunikációt és a megrendelés komolyságát, így szeretnének egy új, saját ízlésüknek megfelelő szoftvert készíttetni, amivel ezt megvalósíthatják. Fontos számukra az oldal egyértelmű használata, egyszerű nyelvezete. Elvárják a letisztult, reszponzív megjelenést. 
 
+## 3. Követelménylista
+
+| Modul | Id | Név | Kifejtés |
+| :---: | --- | --- | --- |
+| Jogosultság | K01 | Jogosultsági szintek | Admin - Rendszer felett teljes hozzáférés. Jegyző - Megrendelések rögzítése, adatainak módosítása. Dolgozó  - Megrendelések státuszának módosítása |
+| Jogosultság | K02 | Regisztráció | Az Admin jogosultsággal rendelkező felhasználónak lehetősége van szerepkörök kiosztására, valamint új felhasználók létrehozására. |
+| Jogosultság | K03 | Bejelentkezés |Az Admin által kiosztott felhasználónév-jelszó párossal történik a bejelentkezés. |
+| Modifikáció | K04 | Jelszó | Elvesztett jelszó esetén csakis az Adminnak van lehetősége új jelszót adni. |
+| Adminisztráció | K05 | Adatok felvitele | A jegyzőnek lehetősége van új megrendelést felvinni az adatbázisba. |
+| Adminisztráció | K06 | Státusz módosítása | A dolgozó köteles minden munkafázis elvégzése után a csomag státuszát megváltoztatni a megfelelőre. |
+| Felület | K07 | Kilistázás | A dolgozó szerepkörben bejelentkezett felhasználók csak a ki nem szállított csomagokat láthatják, egyébként a magasabb rangúak az összes rendelést látják. |
+
 
 ## 4. Jelenlegi üzleti folyamatok modellje	
 Ügyfelünk jelenleg papíron követi nyomon rendeléseit és azok jelenlegi állapotát, ám bővítés miatt elengedhetetlenné vált egy nyilvántartó szoftver használata. A XX. században a cégek/vállalkozások a nyilvántartást papíron végezték, akár írógéppel írt szöveg, akár kézírással egy füzetbe. Az adatok feljegyzését könnyen el lehet rontani, s ez az írógépeknél a teljes újrakezdést jelentette egy oldalnál. Mindkettő eset biztonsági/nyilvántartási tekintetben is tökéletlen. Mindez a XXI. században elavultnak számít nem csak nagy, de kis cégeknél is. Ennél fogva manapság szükséges egy jól felépített szoftver/alkalmazás, amit a technológiában laikusak is könnyedén tudnak használni, illetve szerkeszteni. Ezzel is segítve a nyilvántartás gyorsaságát, pontosságát, s a legfontosabb: a biztonságát.
