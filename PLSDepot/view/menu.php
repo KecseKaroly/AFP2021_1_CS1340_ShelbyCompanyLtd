@@ -30,7 +30,7 @@
                   </a>
               </div>
               <?php
-              if($aut=="admin" || $aut=="futar")
+              if($aut=="admin" || $aut=="felvivo")
               {
               echo '<a href="newentryform.php">
               <div class="row d-flex align-self-stretch">
