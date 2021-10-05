@@ -7,7 +7,7 @@
     $query="select jog from alkalmazott where felhasznalonev='".$_SESSION['user']."'";
     $res=mysqli_query($con,$query) or die ("Hiba: ".mysqli_error($con));
     list($aut)=mysqli_fetch_row($res);
-    if((empty($_SESSION['userLogin']) || $_SESSION['userLogin'] == '') || $aut!="admin" && $aut!="futar"){
+    if((empty($_SESSION['userLogin']) || $_SESSION['userLogin'] == '') || $aut!="admin" && $aut!="felvivo"){
         echo '<meta http-equiv="refresh" content="0; URL=index.php">';
     }
 ?>
