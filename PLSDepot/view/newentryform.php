@@ -21,11 +21,11 @@
                     <label class="form-label">Partnercég</label>    
                     <select id = "partnercegek_nev" name = "partnercegek_nev" class="form-select">
                         <option selected>Válasszon...</option>
-                        <option value="1">BestGigabyte</option>
-                        <option value="2">eMeg</option>
-                        <option value="3">MédiaMárk</option>
-                        <option value="4">alza</option>
-                        <option value="5">Second Shop</option>
+                        <option value="BestGigabyte">BestGigabyte</option>
+                        <option value="eMeg">eMeg</option>
+                        <option value="MédiaMárk">MédiaMárk</option>
+                        <option value="Alza">alza</option>
+                        <option value="Second Shop">Second Shop</option>
                         <!--Itt az option value tulajdonképpen a cég id-ja a partnercég táblában. Az aktuális dátumot majd a lekérdezés adja hozzá-->
                     </select>
 
