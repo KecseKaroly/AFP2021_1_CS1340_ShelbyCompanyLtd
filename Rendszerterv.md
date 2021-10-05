@@ -65,6 +65,20 @@
 
 ##  8. Adatbázis terv
 
+Létrehozott adatbázis táblák: 
+
+-kiszallitas (megbizasid, kiszallito, datum, fizetes_formaja, sikeres)
+
+-csomag_elokeszites (megbizasid, alkalmazottid, fazis)
+
+-cimzett (id, nev, lakcim, telefonszam, email)
+
+-alkalmazott (id, teljesnev, felhasznalonev, jelszo, jog)
+
+-megbizas (id, feladas_datum, cimzettid, partnercegid, megnevezes, ar, suly)
+
+-partnercegek (id, nev, cim)
+
 ## 9. Implementációs terv
 
 A Webes felület főként HTML, CSS, és PHP nyelven fog készülni.
