@@ -8,7 +8,7 @@
 		$result=mysqli_query($con,$query) or die ("Hiba: ".mysqli_error($con));
                 
                 list($username,$passwd)=mysqli_fetch_row($result);
-		if($passwd==$_POST['password'] && $username==($_POST['username']))
+		if($passwd==md5($_POST['password']) && $username==($_POST['username']))
 		{
                     session_start();
                     $_SESSION["user"]=$username;
