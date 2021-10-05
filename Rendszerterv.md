@@ -87,3 +87,7 @@ Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítj
 könnyebb változtathatóság, és könnyebb bővítés érdekében.
 
 ## 10. Tesztterv 
+
+Az alkalmazás fejlesztése közben szükségünk lesz a különböző funkciók folyamatos tesztelésére és ezek esetleges javítására. 
+Több tesztelés fog megtörténni a fejlesztés során és ezek itt lesznek folyamatosan nyomon követve és véleményezve.
+
