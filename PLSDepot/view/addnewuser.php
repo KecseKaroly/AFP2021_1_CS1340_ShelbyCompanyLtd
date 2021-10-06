@@ -1,4 +1,5 @@
 <?php
+    require('../components/navbar.inc.php');
     require('../components/init.inc.php');
     require ('../controller/database.php');
     $dbname="pls";
@@ -46,8 +47,6 @@
                 </form>
             </div>
         </div>
-        
-        <div class="col-2"></div>
     </div>
 </div>
                           
