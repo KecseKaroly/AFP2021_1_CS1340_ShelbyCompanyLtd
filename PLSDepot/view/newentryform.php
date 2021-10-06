@@ -1,5 +1,6 @@
 <?php
     require('../components/init.inc.php');
+    require('../components/navbar.inc.php');
     require ('../controller/database.php');
     $dbname="pls";
     $con=connect("root","",$dbname);
