@@ -1,5 +1,5 @@
 <?php
-    require('./components/navbar.inc.php');
+    require('../components/navbar.inc.php');
     require('../components/init.inc.php');
     require ('../controller/database.php');
     $dbname="pls";
