@@ -1,5 +1,19 @@
 # Rendszerterv
 
+## 1. A rendszer célja
+Egy futárcég számára készítünk egy olyan webfelületet, mely megkönnyíti minden alkalmazott munkáját. Az adminnak teljeskörű jogosultsága van, azaz kezelheti az alkalmazottak jogait, jelszavait, mindent megtudhat a csomagok állapotáról. A rendelésfelvevő nevéből értetődően a beérkező megbízásokat felveszi az adatbázisba, vagy módosíthatja a bejegyzések tartalmát. A raktárosok számára intuitív rendszert hozunk létre, mellyel kvázi munkatársainak jeleznek vissza az egyes csomagok állapotáról. A megbízást a futár maga zárja le, mikor átadja a csomagot a megrendelőnek. A webfelület HTML, CSS, PHP nyelvek segítségével jön létre. Az adatbázist MySQL segítségével  hozzuk létre. Fontos, hogy az admin számára számítógépről és a raktárosoknak telefonról egyforma felhasználási élményt nyújtsunk, ezért Bootstrap segítségével reszponzív designt valósítunk meg.
+
+## 2. Projektterv
+Projektmunkások, felelősségek:
+- Adatbázistervezés, annak létrehozása: Kecse Károly, Nagy Péter Axel
+- Frontend: Banyik Nándor, Kecse Károly, Nagy Péter Axel
+- Webdesign, bootstrap beépítése: Sárosi Gábor
+- Backend: Banyik Nándor, Sárosi Gábor
+- Tesztelés: Nagy Péter Axel
+
+## 3. Üzleti folyamatok modellje
+[link](https://app.diagrams.net/#G1etz7i0_VDxqo2UWqLyRIaN9u90P9lURz)
+
 ## 4. Követelmények
  - Funkcionális követelmények
     -  Felhasználók bejelentkezési adatainak tárolása
