@@ -14,7 +14,7 @@
                     <input type="text" class="form-control" id="username" name="username" placeholder="Felhasználónév">
                     <label class="form-label" style="margin-top: 20px;">Jelszó</label>
                     <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Jelszó">
-                    <button type="submit" class="btn btn-login text-center" name="login">Bejelentkezés</button>
+                    <button type="submit" class="btn btn-login text-center" name="login" style="margin-top: 20pt;">Bejelentkezés</button>
                 </form>
             </div>
         </div>

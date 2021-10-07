@@ -1,6 +1,5 @@
 <?php
     require('../components/init.inc.php');
-    require('../components/navbar.inc.php');
     require ('../controller/database.php');
     $dbname="pls";
     $con=connect("root","",$dbname);
@@ -11,6 +10,7 @@
     if((empty($_SESSION['userLogin']) || $_SESSION['userLogin'] == '') || $aut!="admin" && $aut!="felvivo"){
         echo '<meta http-equiv="refresh" content="0; URL=index.php">';
     }
+    include('../components/navbar.inc.php');
 ?>
 
 <div class="content">
