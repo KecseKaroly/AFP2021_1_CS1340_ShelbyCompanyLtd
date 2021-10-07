@@ -4,9 +4,6 @@
     $dbname="pls";
     $con=connect("root","",$dbname);
     session_start();
-    $query="select jog from alkalmazott where felhasznalonev='".$_SESSION['user']."'";
-    $res=mysqli_query($con,$query) or die ("Hiba: ".mysqli_error($con));
-    list($aut)=mysqli_fetch_row($res);
     if(empty($_SESSION['userLogin']) || $_SESSION['userLogin'] == '')
     {
         echo '<meta http-equiv="refresh" content="0; URL=index.php">';
@@ -31,7 +28,7 @@
                         </a> 
                     </div>                     
                     <?php
-                        if($aut=="admin" || $aut=="felvevo")
+                        if($_SESSION['aut']=="admin" || $_SESSION['aut']=="felvevo")
                         {
                         echo '<a href="newentryform.php">
                             <div class="col text-center" style="background-color: #807ccc; border-radius: 20pt 20pt 20pt 20pt;">
