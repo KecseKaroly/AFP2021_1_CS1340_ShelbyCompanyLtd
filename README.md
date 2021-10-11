@@ -6,6 +6,8 @@ Ez a repository az Eszterházy Károly Katolikus Egyetem 2021. 1. félévi alkal
 ## Csapattagok
 
 - [Banyik Nándor](https://github.com/Banyik)
+- [Bognár Viktória](https://github.com/apalosaa4)
+- [Cserneczky Bálint](https://github.com/unicsbalint)
 - [Kecse Károly](https://github.com/KecseKaroly/)
 - [Nagy Péter Axel](https://github.com/Axel0103/)
 - [Sárosi Gábor](https://github.com/FeNToNelele/)
