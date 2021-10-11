@@ -38,6 +38,17 @@
     $con=mysqli_connect('localhost',"root","", "pls",3306);
     $result=mysqli_query($con,$sql) or die ("Nem sikerült ".$sql);
         while(list($id,$teljesnev,$felhasznalonev,$jelszo,$jog)=mysqli_fetch_row($result)) {
+            switch($jog) {
+                case "dolgozo":
+                    $jog = "Raktáros";
+                    break;
+                case "felvivo":
+                    $jog = "Rendelésfelvevő";
+                    break;
+                case "futar":
+                    $jog = "Futár";
+                    break;
+            }
         
             echo "<tr>";
                 echo '<form name="deletemodifyUser" method="post" action="deletemodifyUser.php" enctype=multipart/form-data>';
