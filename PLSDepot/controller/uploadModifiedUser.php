@@ -24,5 +24,6 @@ if(isset($_POST['uploadModifiedUser']))
     {
         echo '<h2 style="text-align: center;">A kiválasztott felhasználó sikeresen módosítva.</h2>';
     } else echo '<h2 style="text-align: center;">Hiba a lekérdezés lefutásakor.</h2>';
+     echo '<meta http-equiv="refresh" content="2; URL=../view/listorders.php">';
 }
 ?>
