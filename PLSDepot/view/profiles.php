@@ -1,13 +1,14 @@
 <?php
     require('../components/init.inc.php');
     require ('../controller/database.php');
+    include('../components/navbar.inc.php');
     $dbname="pls";
     $con=connect("root","",$dbname);
     session_start();
     if((empty($_SESSION['userLogin']) || $_SESSION['userLogin'] == '') || $_SESSION['aut']!="admin"){
         echo '<meta http-equiv="refresh" content="0; URL=index.php">';
     }
-    include('../components/navbar.inc.php');
+   
 ?>
 
 
