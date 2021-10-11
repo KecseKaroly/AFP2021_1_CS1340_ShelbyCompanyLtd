@@ -1,8 +1,7 @@
 ## 1. Jelenlegi helyzet
 
-A PLS futárcég eddig XY településeken egyedüli vállalkozásként végezte a csomagok kiszállítását.
+A PLS futárcég eddig csak néhány településen foglalkozott csomagkiszállítással.
 A vállalatnak eddig elegendő volt füzetben nyilvántartani a csomagok állapotát, mivel kevesen dolgoztak a cégnél és kevés volt a kiszállítandó csomag is.
-
 
 ## 2. Vágyálom rendszer
 
