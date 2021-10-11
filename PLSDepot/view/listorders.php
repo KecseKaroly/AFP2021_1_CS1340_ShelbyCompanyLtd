@@ -13,7 +13,6 @@
 ?>
 
 
-
 <?php
     
 
@@ -31,9 +30,6 @@
     else if($order==6) $orderstring=" order by partnercegek.nev";
     else if($order==7) $orderstring=" order by csomag_elokeszites.fazis";
 
-    
-
-
     if($aut == 'admin' || $aut == 'felvivo')
             $sql = "SELECT megbizas.id, megbizas.megnevezes, megbizas.suly, megbizas.ar, megbizas.feladas_datum, cimzett.nev, partnercegek.nev, csomag_elokeszites.fazis, csomag_elokeszites.alkalmazottid FROM cimzett INNER JOIN megbizas ON cimzett.id = megbizas.cimzettid INNER JOIN partnercegek ON megbizas.partnercegid = partnercegek.id INNER JOIN csomag_elokeszites ON megbizas.id = csomag_elokeszites.megbizasid WHERE csomag_elokeszites.fazisKesz = FALSE";
         else
@@ -43,8 +39,9 @@
 
 <?php
     if(true) {
-        echo '<div class="container-md">';
-        echo '<table class="table table-light" style="text-shadow: none;">
+        echo '<div class="container">';
+        echo '<div class="table-responsive-md">';
+        echo '<table class="table table-striped" style="text-shadow: none;">
             <thead>
               <tr>';
                 if($aut == 'admin' || $aut == 'felvivo')
@@ -161,14 +158,15 @@
                 
                 if($aut == 'admin' || $aut == 'felvivo')
                 {
-                    echo "<td><button type='submit' name='modifyOrder' class='btn btn-warning btn-lg'>Módosítás</button></td>";
-                    echo "<td><button type='submit' name='deleteOrder' class='btn btn-danger btn-lg'>Törlés</button></td>";
+                    echo "<td><button type='submit' name='modifyOrder' class='btn btn-warning'>Módosítás</button></td>";
+                    echo "<td><button type='submit' name='deleteOrder' class='btn btn-danger'>Törlés</button></td>";
                 }
                 
                 echo '</form>';
             echo "</tr>";
         }
         echo '</table></div>';
+        echo '</div>';
     }
     
     ?> 

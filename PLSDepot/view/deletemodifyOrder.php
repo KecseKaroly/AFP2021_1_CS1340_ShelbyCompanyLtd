@@ -1,7 +1,7 @@
 <?php
-    require('../components/navbar.inc.php');
     require('../components/init.inc.php');
     require ('../controller/database.php');
+    include('../components/navbar.inc.php');
 ?>
 
 <?php
@@ -40,7 +40,7 @@ if (isset($_POST['modifyOrder']))
 echo '<div class="container text-center">';
     echo "<div class='col'>";
         echo '<form name="update" method="post" action="../controller/uploadModifiedOrder.php" enctype=multipart/form-data>';
-            echo "<div class='card' style='width: 100%; background-color: #7557c9;'>";
+            echo "<div class='card' style='width: 100%; background-color: #807ccc; border-radius: 30pt 30pt 30pt 30pt;'>";
                 echo "<div class='card-body'>";
                     echo '<input type="hidden" name="id" value="'.$id.'">';
                     echo "<p class='card-text' style='color: #1f2833;'>Megnevezés:</p>";
@@ -53,7 +53,7 @@ echo '<div class="container text-center">';
                     echo '<input type="text" name="ar" placeholder="Ár" value="'.$ar.'"><br><br>';
                     
 
-                    echo "<button type='submit' name='uploadModifiedOrder' class='btn btn-dark btn-lg'>Mentés</button>";
+                    echo "<button type='submit' name='uploadModifiedOrder' class='btn btn-light btn-lg'>Mentés</button>";
                 echo "</div>";
             echo "</div>";
         echo '</form>';

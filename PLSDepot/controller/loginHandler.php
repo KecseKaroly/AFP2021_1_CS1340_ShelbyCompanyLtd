@@ -4,16 +4,14 @@
                 $dbname="pls";
                 $con=connect("root","", $dbname);
                 
-		$query="select felhasznalonev,jelszo from alkalmazott where felhasznalonev='".$_POST['username']."'";
+		$query="select felhasznalonev,jelszo,jog from alkalmazott where felhasznalonev='".$_POST['username']."'";
 		$result=mysqli_query($con,$query) or die ("Hiba: ".mysqli_error($con));
                 
-                list($username,$passwd)=mysqli_fetch_row($result);
+        list($username,$passwd,$aut)=mysqli_fetch_row($result);
 		if($passwd==md5($_POST['password']) && $username==($_POST['username']))
 		{
                     session_start();
-                    $query="select jog from alkalmazott where felhasznalonev='".$_SESSION['user']."'";
-                    $res=mysqli_query($con,$query) or die ("Hiba: ".mysqli_error($con));
-                    list($_SESSION['aut'])=mysqli_fetch_row($res);
+                    $_SESSION["aut"]=$aut;
                     $_SESSION["user"]=$username;
                     $cookie_name = $username;
                     $a=getenv("REMOTE_ADDR"); 

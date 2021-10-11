@@ -1,14 +1,15 @@
 <?php
+    require('../components/navbar.inc.php');
     require('../components/init.inc.php');
     require ('../controller/database.php');
-    include('../components/navbar.inc.php');
     $dbname="pls";
     $con=connect("root","",$dbname);
-    session_start();
-    if((empty($_SESSION['userLogin']) || $_SESSION['userLogin'] == '') || $_SESSION['aut']!="admin"){
+    $query="select jog from alkalmazott where felhasznalonev='".$_SESSION['user']."'";
+    $res=mysqli_query($con,$query) or die ("Hiba: ".mysqli_error($con));
+    list($aut)=mysqli_fetch_row($res);
+    if((empty($_SESSION['userLogin']) || $_SESSION['userLogin'] == '') || $aut!="admin"){
         echo '<meta http-equiv="refresh" content="0; URL=index.php">';
     }
-   
 ?>
 
 
@@ -19,7 +20,7 @@
         echo '<form name = "addnewprofiles" method="post" action="addnewuser.php" enctype=multipart/form-data>';
         echo '<button type="submit" class="btn btn-login text-center" name="newuser" style="margin-top: 20px;">Felvétel</button>';
         echo '</form>';   
-        echo '<table class="table table-light" style="text-shadow: none;">
+        echo '<table class="table table-striped" style="text-shadow: none;">
             <thead>
               <tr>
                 <th scope="col">Id</th>

@@ -16,5 +16,9 @@ function Redirect(panel) {
             // felhasználók
             window.location.replace("profiles.php");
           break;
+        case 4:
+          //kijelentkezés
+          window.location.replace("index.php");
+          break;
       }
 }

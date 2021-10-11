@@ -14,40 +14,40 @@
 ?>
 
 <div class="content">
-        <div class="container" style="border: 5pt; border-color: black;">
-                <div class="row">
-                    <img src="../img/PLS_logo.png" alt="" class="img-fluid">
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <a href="">
-                            <div class="col text-center" style="background-color: #807ccc; border-radius: 20pt 20pt 20pt 20pt;">
-                                <img src="../img/list.svg" alt="" style="width: 20%;">
-                                <p style="text-align: center;">Megbízások</p>
-                            </div>
-                        </a> 
-                    </div>                     
-                    <?php
-                        if($_SESSION['aut']=="admin" || $_SESSION['aut']=="felvevo")
-                        {
-                        echo '<a href="newentryform.php">
-                            <div class="col text-center" style="background-color: #807ccc; border-radius: 20pt 20pt 20pt 20pt;">
-                                <img src="../img/neworder.svg" alt="" width="20%">
-                                <p>Új megbízás</p>    
-                            </div>
-                        </a>';
-                        } 
-                    ?>
-          
-                    <a href=index.php>
-                        <div class="col text-center" style="background-color: #E34234; border-radius: 20pt 20pt 20pt 20pt; margin-top: 20px">
-                            <img src="../img/logout.svg" alt="Kijelentkezés" width="50%">
+    <script src="../js/redirect.js"></script>    
+    <div class="container-md" style="border: 5pt; border-color: black;">
+        <div class="row">
+            <div class="col text-center">
+                <img src="../img/PLS_logo.png" alt="" class="img-fluid" onclick="Redirect(0)" width="80%">
+            </div>
+            
+        </div>          
 
-                        </div>
-                    </a>
-                </div>
+        <div class="row">
+            <div class="col text-center">
+                <img src="../img/megbizasok-menu.png" class="img-fluid" alt="Megbízások" onclick="Redirect(1)">
+            </div>
+                                
+            <?php
+                if($_SESSION['aut']=="admin" || $_SESSION['aut']=="felvevo")
+                {
+                echo '<div class="col text-center">
+                        <img src="../img/uj_megbizas-menu.png" class="img-fluid" alt="" onclick="Redirect(2)">
+                      </div>';
+                } 
+            ?>
         </div>
+
+        <div class="row">
+            <div class="col text-center">
+                <img src="../img/felhasznalok_kezelese-menu.png" class="img-fluid" alt="" onclick="Redirect(3)">
+            </div>
+            <div class="col-3 text-center">
+                <img src="../img/kijelentkezes-menu.png" class="img-fluid" alt="Kijelentkezés" onclick="Redirect(4)">
+            </div>
+        </div>     
     </div>
+</div>
 
 
 <?php

@@ -27,7 +27,12 @@
                                 echo "ERROR: Could not execute $query. " . mysqli_error($con);
                             }
 
+        $query="select max(id) from megbizas";
+        $res=mysqli_query($con,$query) or die ("Hiba: ".mysqli_error($con));
+        list($id)=mysqli_fetch_row($res);
         
+        $query="INSERT INTO csomag_elokeszites VALUES(".$id.",0,1,0)";
+        $res=mysqli_query($con,$query) or die ("Hiba: ".mysqli_error($con));
 
 
         mysqli_close($con);

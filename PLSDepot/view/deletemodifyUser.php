@@ -36,7 +36,7 @@ if (isset($_POST['modifyUser']))
     echo "<div class='container text-center'>";
     echo "<div class='col'>";
         echo '<form name="update" method="post" action="../controller/uploadModifiedUser.php" enctype=multipart/form-data>';
-            echo "<div class='card' style='width: 100%; background-color: #7557c9;'>";
+            echo "<div class='card' style='width: 100%; background-color: #807ccc; border-radius: 30pt 30pt 30pt 30pt;'>";
                 echo "<div class='card-body'>";
                     echo '<input type="hidden" name="id" value="'.$id.'">';
                     echo "<p class='card-text' style='color: #1f2833;'>Teljes név:</p>";
@@ -69,7 +69,7 @@ if (isset($_POST['modifyUser']))
                         }
                         echo '</select><br><br>';
 
-                    echo "<button type='submit' name='uploadModifiedUser' class='btn btn-dark btn-lg'>Mentés</button>";
+                    echo "<button type='submit' name='uploadModifiedUser' class='btn btn-light btn-lg'>Mentés</button>";
                 echo "</div>";
             echo "</div>";
         echo '</form>';
