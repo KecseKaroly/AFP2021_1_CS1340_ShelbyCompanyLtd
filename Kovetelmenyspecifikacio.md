@@ -60,10 +60,10 @@ A weboldalon lehessen csoportokat létrehozni, így részlegenként nyomon köve
     -Megrendelés felvitele
     -Megrendelés állapotának módosítása
 
-## 7. Fogalomtár
+## 7. Fogalomszótár
 
-- Jegyző: rendelést rögzítő alkalmazott
 - Depó: más szóval lerakat, raktár
-- Intuitív: egyértelmű, magától értetődő
-- GDPR: [General Data Protection Regulation] Általános adatvédelmi megszorítások. Fő célja a személyes adatok egységes szintű adatvédelmi biztosítása az Európai Unión belül.
 - Design: megjelenés, stílus
+- GDPR: [General Data Protection Regulation] Általános adatvédelmi megszorítások. Fő célja a személyes adatok egységes szintű adatvédelmi biztosítása az Európai Unión belül.
+- Intuitív: egyértelmű, magától értetődő
+- Jegyző: rendelést rögzítő alkalmazott
