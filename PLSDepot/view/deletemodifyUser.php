@@ -19,6 +19,7 @@ if (isset($_POST['deleteUser']))
     if($result)
     {
         echo '<h2 style="text-align: center;">A kiválasztott felhasználó törölve.</h2>';
+         echo '<meta http-equiv="refresh" content="0; URL=../view/profiles.php">';
     } else echo '<h2 style="text-align: center;">Hiba a lekérdezés lefutásakor.</h2>';
 }
 
@@ -32,10 +33,10 @@ if (isset($_POST['modifyUser']))
     $result=mysqli_query($con,$sql) or die ("Nem sikerült ".$sql);
     list($id,$teljesnev,$felhasznalonev,$jelszo,$jog)=mysqli_fetch_row($result);
 
-
-    echo "<div class='col-4'>";
+    echo "<div class='container text-center'>";
+    echo "<div class='col'>";
         echo '<form name="update" method="post" action="../controller/uploadModifiedUser.php" enctype=multipart/form-data>';
-            echo "<div class='card' style='width: 100%; background-color: #ECA400;'>";
+            echo "<div class='card' style='width: 100%; background-color: #7557c9;'>";
                 echo "<div class='card-body'>";
                     echo '<input type="hidden" name="id" value="'.$id.'">';
                     echo "<p class='card-text' style='color: #1f2833;'>Teljes név:</p>";
@@ -68,7 +69,7 @@ if (isset($_POST['modifyUser']))
                         }
                         echo '</select><br><br>';
 
-                    echo "<button type='submit' name='uploadModifiedUser' class='btn btn-success btn-lg'>Mentés</button>";
+                    echo "<button type='submit' name='uploadModifiedUser' class='btn btn-dark btn-lg'>Mentés</button>";
                 echo "</div>";
             echo "</div>";
         echo '</form>';
