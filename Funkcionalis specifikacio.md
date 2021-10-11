@@ -38,7 +38,7 @@ A technológiailag lemaradt cégeknek egyéni szoftvert/alkalmazást hozunk lét
 
 
 ## 7. Megfeleltetés
-Kialakítjuk a 3 kért jogosultsági szintet a meghatározott funkciókkal:
+Implementáljuk a 3 kért jogosultsági szintet a meghatározott funkciókkal:
 		Admin: felhasználók kezelése, teljes felügyelet a rendszer felett
 		Rendelésfelvevő: rendelési adatok felvitele az adatbázisba, csomag adatainak módosítása
 		Raktáros: a csomag állapotát a munka folyamatának megfelelően lehet módosítani
@@ -61,6 +61,7 @@ A csomagok állapota mellett lehetősége van egy külön menüpontban új csoma
 
 ## 10. Fogalomszótár
 
-- Reszponzív: Az eszköz nagyságától függően igazodik a weboldal megjelenésének méretezése. (2. pont)
-- Privilégiumok: Felhasználók jogosultsági köre. (7. pont)
+- Implementálás: Megvalósítás
 - Kliens: vásárlók (5. pont)
+- Privilégiumok: Felhasználók jogosultsági köre. (7. pont)
+- Reszponzív: Az eszköz nagyságától függően igazodik a weboldal megjelenésének méretezése. (2. pont)
