@@ -19,7 +19,7 @@
 
 
         mysqli_close($con);
-        #echo '<meta http-equiv="refresh" content="0; URL=../view/menu.php">';
+        echo '<meta http-equiv="refresh" content="0; URL=../view/profiles.php">';
 
             
     }
