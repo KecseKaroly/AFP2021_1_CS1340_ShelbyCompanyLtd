@@ -5,7 +5,7 @@ A vállalatnak eddig elegendő volt füzetben nyilvántartani a csomagok állapo
 
 ## 2. Vágyálom rendszer
 
-A cég bővülni fog, most már regionális szinten fognak csomagokat kézbesíteni.
+A cég bővülni fog, hamarosan regionális szinten fognak csomagokat kézbesíteni.
 Várhatóan egyre nőni fog a megbízások száma, ezért a cég szeretne egy saját nyilvántartó weboldalt, mellyel a dolgozók munkáját könnyítené meg.
 A dolgozók ennek segítségével visszajelezhetnek az egyes csomagok állapotáról. A PLS elvárja, hogy a weboldal könnyen használható, igényes legyen.
 A weboldalon lehessen csoportokat létrehozni, így részlegenként nyomon követhetők a tételek.
