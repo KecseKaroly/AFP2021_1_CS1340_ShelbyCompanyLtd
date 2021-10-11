@@ -32,7 +32,7 @@
             <tbody>';
     
 
-    $sql = "SELECT * FROM alkalmazott WHERE jog != 'admin'";
+    $sql = "SELECT * FROM alkalmazott WHERE jog != 'admin' and id > 0";
     $con=mysqli_connect('localhost',"root","", "pls",3306);
     $result=mysqli_query($con,$sql) or die ("Nem sikerült ".$sql);
         while(list($id,$teljesnev,$felhasznalonev,$jelszo,$jog)=mysqli_fetch_row($result)) {
