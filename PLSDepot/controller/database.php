@@ -1,5 +1,4 @@
 <?php
-
 function connect($username,$password,$dbname)
 {
     $con=mysqli_connect('localhost',$username,$password,$dbname,3306);
@@ -7,9 +6,9 @@ function connect($username,$password,$dbname)
     {
         die("Hiba".mysqli_error($con));
     }
-    else{
+    else
+    {
         return $con;
     }
-    
 }
 ?>
