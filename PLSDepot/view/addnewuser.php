@@ -34,7 +34,7 @@
                     <label class="form-label">Jogosultság</label>    
                     <select id = "partnercegek_nev" name = "jog" class="form-select">
                         <option selected>Válasszon...</option>
-                        <option value="felvevo">Rendelésfelvevő</option>
+                        <option value="felvivo">Rendelésfelvevő</option>
                         <option value="dolgozo">Dolgozó</option>
                         <option value="futar">Futár</option>
                     </select>                                                                                          
