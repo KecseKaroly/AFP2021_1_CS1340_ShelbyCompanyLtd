@@ -34,14 +34,23 @@
                 echo '<div class="col text-center">
                         <img src="../img/uj_megbizas-menu.png" class="img-fluid" alt="" onclick="Redirect(2)">
                       </div>';
-                } 
+                }
+
+
             ?>
         </div>
 
         <div class="row">
-            <div class="col text-center">
-                <img src="../img/felhasznalok_kezelese-menu.png" class="img-fluid" alt="" onclick="Redirect(3)">
-            </div>
+            <?php
+                if($_SESSION['aut'] == "admin")
+                {
+                    echo '<div class="col text-center">
+                            <img src="../img/felhasznalok_kezelese-menu.png" class="img-fluid" alt="" onclick="Redirect(3)">
+                        </div>';
+                }
+            ?>
+            
+
             <div class="col-3 text-center">
                 <img src="../img/kijelentkezes-menu.png" class="img-fluid" alt="Kijelentkezés" onclick="Redirect(4)">
             </div>
