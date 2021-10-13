@@ -4,7 +4,6 @@
     require ('../controller/database.php');
     $dbname="pls";
     $con=connect("root","",$dbname);
-    session_start();
     $query="select jog from alkalmazott where felhasznalonev='".$_SESSION['user']."'";
     $res=mysqli_query($con,$query) or die ("Hiba: ".mysqli_error($con));
     list($aut)=mysqli_fetch_row($res);
