@@ -1,0 +1,66 @@
+.topnav {
+    overflow: hidden;
+    background-color: #6461A0;
+    border-radius: 10pt 10pt 10pt 10pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20pt;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #535353;
+    color: #F7F9F9;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .topnav {
+        padding-left: 0pt;
+        padding-right: 0pt;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .topnav {
+        padding-left: 0pt;
+        padding-right: 0pt;
+    }
+
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
