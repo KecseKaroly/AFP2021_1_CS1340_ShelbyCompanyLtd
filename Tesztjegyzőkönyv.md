@@ -4,7 +4,7 @@ Teszteléseket végezte: Nagy Péter Axel
 
 Operációs rendszer: Windows 10
 
-Böngészők: Google Chrome, Mozilla Firefox
+Böngészők: Google Chrome, Mozilla Firefox, Opera
 
 Ebben a dokumentumban lesz felsorolva az 
 elvégzett tesztek elvárásai és eredményei, 
@@ -29,5 +29,16 @@ vizsgálatra illetve elemzésre.
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
+| Munkafolyamat | 2021.10.04 | A munkafolyamat végi tudjon menni rendesen az egyes munkafázisokon. | A munkafolyamat sikeresen végig ment. | Nem találtam hibát |
+| Telefonos elrendezés | 2021.10.04 | Ha telefonon használjuk a weboldalt akkor ugyanolyan legyen az elrendezés mint asztali számítógépen. | Telefonon a navbar egy picit másképp néz ki, de ezen kívül minden rendben volt. | Minimális hibát találtam |
+| Új felhasználó hozzáadása (adminként) | 2021.10.04 | Admin hozzátudjon adni egy új felhasználót a rendszerhez | Sikerült ezt megvalósítani | Nem találtam hibát |
+| Backend | 2021.10.04 | A backendben megírt PHP kódok megfelelő működése | A Backend tökéletesen működött. | Nem találtam hibát |
+| Frontend | 2021.10.04 | A weboldal igényes, letisztult megjelenése | A menürendszer nagyon letisztult, viszont a navbar egy picit elcsúszik | Minimális hibát találtam. |
+
+A Béta teszt is sikeresen zajlott, 
+nagyon minimális hibákat találtam (esztétikai hibák).
+
+A végleges tesztelésnél az összes fent felsorolt 
+vizsgálati elem újra ellenőrzésre kerül.
 
 ## Végleges teszt
