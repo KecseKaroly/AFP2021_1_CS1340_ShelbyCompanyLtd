@@ -25,3 +25,18 @@ illetve hiányok nélkül.
 Következő tesztelésnél a többi funkció kerül 
 vizsgálatra illetve elemzésre.
 
+## Béta teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Munkafolyamat | 2021.10.05 | A munkafolyamat végi tudjon menni rendesen az egyes munkafázisokon. | A munkafolyamat sikeresen végig ment. | Nem találtam hibát. |
+| Telefonos elrendezés | 2021.10.05 | Ha telefonon használjuk a weboldalt akkor ugyanolyan legyen az elrendezés mint asztali számítógépen. | Telefonon a navbar egy picit másképp néz ki, de ezen kívül minden rendben volt. | Minimális hibát találtam |
+| Új felhasználó hozzáadása (adminként) | 2021.10.05 | Admin hozzátudjon adni egy új felhasználót a rendszerhez. | Sikerült ezt megvalósítani. | Nem találtam hibát. |
+| Backend | 2021.10.05 | A backendben megírt PHP kódok megfelelő működése. | A Backend tökéletesen működött. | Nem találtam hibát. |
+| Frontend | 2021.10.05 | A weboldal igényes, letisztult megjelenése. | A menürendszer nagyon letisztult, viszont a navbar egy picit elcsúszik. | Minimális hibát találtam. |
+
+A Béta teszt is sikeresen zajlott, 
+nagyon minimális hibákat találtam (esztétikai hibák).
+
+A végleges tesztelésnél az összes fent felsorolt 
+vizsgálati elem újra ellenőrzésre kerül.
