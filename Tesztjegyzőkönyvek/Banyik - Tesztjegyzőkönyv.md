@@ -13,7 +13,6 @@ egyaránt feltűntetve (Alfa, Béta, illetve Végleges verzió).
 ## Alfa teszt
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| Adatbázis | 2021.09.26 | A felhasználók adatainak a meglévő adatbázisba való feltöltése, valamint annak használata | Mind az adatbázis, mind a weboldal megfelelt az elvárásoknak. | Nem találtam hibát. |
 | Belépés | 2021.09.26 | Fiók, illetve bejelentkezés hiányában ne lehessen belépni az oldalra | Csak fiókkal, illetve azzal bejelentkezve tudtam belépni az oldalra | Nem találtam hibát. |
 | Kijelentkezés | 2021.09.26 | Kijelentkezés után ne tudjunk visszalépni anélkül hogy újra bejelentkeznénk. | Nem tudtam visszalépni a weboldalra anélkül, hogy ne jelentkeztem volna be újra.| Nem találtam hibát. |
 | Menüpontok | 2021.09.26 | A menüpontokra rákattintva eltudjuk érni az adott oldalt. | Minden menüpont megfelelően működött. | Nem találtam hibát. |
