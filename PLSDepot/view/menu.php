@@ -29,7 +29,7 @@
             </div>
                                 
             <?php
-                if($_SESSION['aut']=="admin" || $_SESSION['aut']=="felvevo")
+                if($_SESSION['aut']=="admin" || $_SESSION['aut']=="felvivo")
                 {
                 echo '<div class="col text-center">
                         <img src="../img/uj_megbizas-menu.png" class="img-fluid" alt="" onclick="Redirect(2)">
