@@ -93,6 +93,8 @@ Létrehozott adatbázis táblák:
 
 -partnercegek (id, nev, cim)
 
+[link](https://app.diagrams.net/#G1wXyz580BgIyt_0hlcDU_2aQTlivk9gqe)
+
 ## 9. Implementációs terv
 
 A Webes felület főként HTML, CSS, és PHP nyelven fog készülni.
