@@ -27,4 +27,7 @@ vizsgálatra illetve elemzésre.
 
 ## Béta teszt
 
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+
 ## Végleges teszt
