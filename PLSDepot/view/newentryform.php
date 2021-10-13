@@ -31,19 +31,19 @@
                     </select>
 
                     <label class="form-label" style="margin-top: 20px;">Termék neve</label>
-                    <input type="text" class="form-control" id="csomaginfo_megnevezes" name="csomaginfo_megnevezes" placeholder="Termék neve">
+                    <input type="text" required class="form-control" id="csomaginfo_megnevezes" name="csomaginfo_megnevezes" placeholder="Termék neve">
                     <label class="form-label" style="margin-top: 20px;">Súly (kg)</label>
-                    <input type="number" id="csomaginfo_suly" name="csomaginfo_suly" class="form-control" placeholder="Súly (kg)" min=0 max=100>
+                    <input type="number" required id="csomaginfo_suly" name="csomaginfo_suly" class="form-control" placeholder="Súly (kg)" min=0 max=100>
                     <label class="form-label" style="margin-top: 20px;">Ár (ft)</label>
-                    <input type="number" id="csomaginfo_ar" name="csomaginfo_ar" class="form-control" placeholder="Ft" min=0>
+                    <input type="number" required id="csomaginfo_ar" name="csomaginfo_ar" class="form-control" placeholder="Ft" min=0>
                     <label class="form-label" style="margin-top: 20px;">Címzett neve</label>
-                    <input type="text" class="form-control" id="cimzett_nev" name="cimzett_nev" placeholder="Címzett neve">
+                    <input type="text" required class="form-control" id="cimzett_nev" name="cimzett_nev" placeholder="Címzett neve">
                     <label class="form-label" style="margin-top: 20px;">Lakcím</label>
-                    <input type="text" class="form-control" id="cimzett_lakcim" name="cimzett_lakcim" placeholder="Lakcím">
+                    <input type="text" required class="form-control" id="cimzett_lakcim" name="cimzett_lakcim" placeholder="Lakcím">
                     <label class="form-label" style="margin-top: 20px;">Telefonszám</label>
-                    <input type="number" class="form-control" id="cimzett_tel" name="cimzett_tel" placeholder="Telefonszám">
+                    <input type="number" required class="form-control" id="cimzett_tel" name="cimzett_tel" placeholder="Telefonszám">
                     <label class="form-label" style="margin-top: 20px;">E-Mail cím</label>
-                    <input type="text" class="form-control" id="cimzett_email" name="cimzett_email" placeholder="E-Mail cím">
+                    <input type="text" required class="form-control" id="cimzett_email" name="cimzett_email" placeholder="E-Mail cím">
                     <button type="submit" class="btn btn-login text-center" name="newentry" style="margin-top: 20px;">Felvétel</button>
                 </form>
             </div>

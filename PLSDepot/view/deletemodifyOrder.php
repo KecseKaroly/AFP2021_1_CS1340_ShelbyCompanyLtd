@@ -1,7 +1,7 @@
 <?php
-    require('../components/navbar.inc.php');
     require('../components/init.inc.php');
     require ('../controller/database.php');
+    include('../components/navbar.inc.php');
 ?>
 
 <?php
@@ -40,20 +40,20 @@ if (isset($_POST['modifyOrder']))
 echo '<div class="container text-center">';
     echo "<div class='col'>";
         echo '<form name="update" method="post" action="../controller/uploadModifiedOrder.php" enctype=multipart/form-data>';
-            echo "<div class='card' style='width: 100%; background-color: #7557c9;'>";
+            echo "<div class='card' style='width: 100%; background-color: #807ccc; border-radius: 30pt 30pt 30pt 30pt;'>";
                 echo "<div class='card-body'>";
                     echo '<input type="hidden" name="id" value="'.$id.'">';
                     echo "<p class='card-text' style='color: #1f2833;'>Megnevezés:</p>";
-                    echo '<input type="text" name="megnevezes" placeholder="Megnevezés" value="'.$megnevezes.'"><br><br>';
+                    echo '<input type="text" required="required" name="megnevezes" placeholder="Megnevezés" value="'.$megnevezes.'"><br><br>';
     
                     echo "<p class='card-text' style='color: #1f2833;'>Súly:</p>";
-                    echo '<input type="text" name="suly" placeholder="Ár" value="'.$suly.'"><br><br>';                
+                    echo '<input type="text" required="required" name="suly" placeholder="Ár" value="'.$suly.'"><br><br>';                
     
                     echo "<p class='card-text' style='color: #1f2833;'>Ár:</p>";
-                    echo '<input type="text" name="ar" placeholder="Ár" value="'.$ar.'"><br><br>';
+                    echo '<input type="text" required="required" name="ar" placeholder="Ár" value="'.$ar.'"><br><br>';
                     
 
-                    echo "<button type='submit' name='uploadModifiedOrder' class='btn btn-dark btn-lg'>Mentés</button>";
+                    echo "<button type='submit' name='uploadModifiedOrder' class='btn btn-light btn-lg'>Mentés</button>";
                 echo "</div>";
             echo "</div>";
         echo '</form>';
@@ -66,14 +66,14 @@ if (isset($_POST['changestatus']))
 {
     $id = $_POST['id'];
     $fazis = $_POST['fazis'];
-    $sql = 'INSERT INTO csomag_elokeszites VALUES ('.$id.',0,'.($fazis+1).',0)';
+    $sql = 'INSERT INTO csomag_elokeszites VALUES ('.$id.',0,'.($fazis+1).',default)';
     $con=connect("root","", "pls");
     $result=mysqli_query($con,$sql) or die ("Nem sikerült ".$sql);
     
     $sql = 'UPDATE csomag_elokeszites SET fazisKesz = 1 WHERE megbizasid = '.$id.' AND fazis ='.$fazis.';';
     $con=connect("root","", "pls");
     $result=mysqli_query($con,$sql) or die ("Nem sikerült ".$sql);
-    echo '<meta http-equiv="refresh" content="0; URL=../view/listorders.php">';
+    echo '<meta http-equiv="refresh" content="; URL=listorders.php">';
 }
 
 if (isset($_POST['elvallalas']))

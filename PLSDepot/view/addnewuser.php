@@ -17,23 +17,23 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8">
-                <form action="../controller/newUserHandler.php"" method="post" enctype="multipart/form-data">
+                <form action="../controller/newUserHandler.php" method="post" enctype="multipart/form-data">
                     
 
                     <label class="form-label" style="margin-top: 20px;">Teljes név</label>
-                    <input type="text" class="form-control" id="teljesnev" name="teljesnev"" placeholder="Teljes név">
+                    <input type="text" required="required" class="form-control" id="teljesnev" name="teljesnev"" placeholder="Teljes név">
                                                                                                                                              
                     <label class="form-label" style="margin-top: 20px;">Felhasználónév</label>
-                    <input type="text" id="felhasznalonev" name="felhasznalonev" class="form-control" placeholder="Felhasználónév">
+                    <input type="text" required="required" id="felhasznalonev" name="felhasznalonev" class="form-control" placeholder="Felhasználónév">
                                                                                                                                  
                     <label class="form-label" style="margin-top: 20px;">Jelszó</label>
-                    <input type="password" id="jelszo" name="jelszo" class="form-control" placeholder="Jelszó">
+                    <input type="password" required="required" id="jelszo" name="jelszo" class="form-control" placeholder="Jelszó">
                                                                                                                       
                                                                                                                       
                     <label class="form-label">Jogosultság</label>    
-                    <select id = "partnercegek_nev" name = "jog" class="form-select">
+                    <select id = "partnercegek_nev" name = "jog" class="form-select" required="required">
                         <option selected>Válasszon...</option>
-                        <option value="felvivo">Rendelésfelvevő</option>
+                        <option value="felvevo">Rendelésfelvevő</option>
                         <option value="dolgozo">Dolgozó</option>
                         <option value="futar">Futár</option>
                     </select>                                                                                          

@@ -40,13 +40,13 @@ if (isset($_POST['modifyUser']))
                 echo "<div class='card-body'>";
                     echo '<input type="hidden" name="id" value="'.$id.'">';
                     echo "<p class='card-text' style='color: #1f2833;'>Teljes név:</p>";
-                    echo '<input type="text" name="teljesnev" placeholder="Teljes név" value="'.$teljesnev.'"><br><br>';
+                    echo '<input type="text" required="required" name="teljesnev" placeholder="Teljes név" value="'.$teljesnev.'"><br><br>';
     
                     echo "<p class='card-text' style='color: #1f2833;'>Felhasználónév:</p>";
-                    echo '<input type="text" name="felhasznalonev" placeholder="Felhasználónév" value="'.$felhasznalonev.'"><br><br>';
+                    echo '<input type="text" required="required" name="felhasznalonev" placeholder="Felhasználónév" value="'.$felhasznalonev.'"><br><br>';
     
                     echo "<p class='card-text' style='color: #1f2833;'>Új jelszó:</p>";
-                    echo '<input type="password" name="jelszo" placeholder="Jelszó"><br><br>';
+                    echo '<input type="password" required="required" name="jelszo" placeholder="Jelszó"><br><br>';
             
                     echo "<p class='card-text' style='color: #1f2833;'>Jog:</p>";
                     echo '<select class="custom-select" name="jog" required>';
